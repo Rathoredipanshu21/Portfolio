@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif; 
+}
+
+.navbar {
+  display: flex;
+  /* background-color: #000; */
+  background-image: linear-gradient(black,black);
+  padding: 10px;
+}
+
+.logo h1{
+
+  color: #fff;
+}
+
+.list ul {
+  display: flex;
+  list-style: none;
+  margin: 5px;
+  gap: 20px;
+  font-family: 'Lemon', serif;
+  text-align: center;
+
+}
+.list{
+  margin: 2px auto;
+}
+
+.list li {
+  color: white;
+  padding-top: 20px;
+}
+
+.list li:hover {
+  color: yellow;
+  cursor: pointer;
+  text-decoration: underline;
+}

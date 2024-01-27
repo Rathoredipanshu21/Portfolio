@@ -1,0 +1,70 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    height: 60px; /* Adjust the height based on your design */
+  }
+  
+  /* OtherComponent.css */
+  
+  /* Adjust the margin-top value to account for the navbar height */
+  .content-container {
+    margin-top: 80px; /* 60px (navbar height) + 20px (additional spacing) */
+  }
+  
+  /* Projects.css */
+  
+  .projects {
+    background-color: #000;
+    color: #fff;
+    height: 650px;
+    padding-top: 80px; /* Adjust based on your design */
+  }
+  
+  .container,
+  .container2 {
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    gap: 100px;
+    padding-top: 20px;
+  }
+  
+  .projects h1 {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    width: 50%;
+    height: 200px;
+    background-color: grey;
+    box-shadow: wheat;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  h2,
+  h4 {
+    padding-top: 50px;
+  }
+  
+  .box1:hover,
+  .box2:hover,
+  .box3:hover,
+  .box4:hover {
+    transform: scale(1.1);
+  }
+  

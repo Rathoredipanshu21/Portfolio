@@ -1,0 +1,23 @@
+.social-sites ul {
+    display: flex;
+    justify-content: center; 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: black;
+}
+
+.social-sites li {
+    margin: 0 10px; 
+}
+
+.social-sites img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    transition: transform 0.3s ease;
+}
+
+.social-sites img:hover {
+    transform: scale(1.2); 
+}
